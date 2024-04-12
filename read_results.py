@@ -1,5 +1,14 @@
-#%% import repositories
+"""
+Script for reading .hdf5 output files from HAWC2 time marching simulation available in the dataset https://doi.org/10.11583/DTU.24460090
 
+Notes:
+    * The script require the pandas package.
+    * The script require the lacbox package.
+    * It is recommended that the script is stored in the folder structure described in the documentation for the dataset https://doi.org/10.11583/DTU.24460090
+
+"""
+
+#%% import repositories
 import os
 import sys
 import re
